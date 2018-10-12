@@ -1,0 +1,8 @@
+Para correr el programa se debe ejecutar el siguiente comando en el command prompt, que recibe como parametros:
+	Params:
+		{ Greedy | Recursive | DynamicProgramming } (String)	El algoritmo a usar, ya sea o Greedy o Recursive o DynamicProgramming.
+		<totalValue> (int)					El valor total con el que se calcula el programa
+		d1,d2,d3,...,dn (array)					Denominaciones de monedas.
+
+java -cp bin uniandes.algorithms.coinchange.CoinChangeExample Greedy <totalValue> d1,d2,d3,...,dn
+java -cp bin uniandes.algorithms.coinchange.CoinChangeExample DynamicProgramming <totalValue> d1,d2,d3,...,dn
